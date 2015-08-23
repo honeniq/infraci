@@ -9,4 +9,4 @@ dependencies:
 
 test:
   override:
-    - docker run -d -p 3000:3000 honeniq/infraci; sleep 10
+    - bundle exec rspec 
