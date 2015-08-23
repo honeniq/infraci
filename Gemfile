@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'docker-api'
-gem 'serverspec'
+
+group :test do
+  gem 'specinfra', 2.12.7
+  gem 'serverspec'
+end
