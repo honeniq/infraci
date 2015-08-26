@@ -5,7 +5,7 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker pull honeniq/infraci
+    - docker build -t honeniq/infraci .
     - bundle
 
 test:
