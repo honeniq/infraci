@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    docker-api (1.22.2)
+    docker-api (1.22.3)
       excon (>= 0.38.0)
       json
     excon (0.45.4)
